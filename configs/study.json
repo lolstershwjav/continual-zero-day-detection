@@ -1,0 +1,15 @@
+{
+  "seeds": [17, 29, 41, 53, 65],
+  "orders": [
+    ["Fuzzers", "DoS", "Exploits", "Generic", "Reconnaissance", "Analysis"],
+    ["Fuzzers", "Analysis", "Reconnaissance", "Generic", "Exploits", "DoS"]
+  ],
+  "unknown": ["Backdoor", "Shellcode", "Worms"],
+  "episode_rows": 600,
+  "calibration_rows": 120,
+  "test_rows": 450,
+  "benign_per_episode": 250,
+  "epochs": 7,
+  "ewc_lambda": 24,
+  "novelty_fpr": 0.05
+}
